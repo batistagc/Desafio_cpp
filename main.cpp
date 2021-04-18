@@ -49,6 +49,7 @@ int main()
         cout << "\narray[" << i << "]: "<< "= " << array[i];
     }
     delete [] array;
+    array = nullptr;
     cout << "\n";
     
 }
